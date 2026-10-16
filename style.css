@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    
+}
+/* cabecalho */
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 30px;
+}
+.conteudo-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    gap: 20px;
+}
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+nav{
+    display: flex;
+    gap: 20px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}.logo img {
+    width: 150px;
+    height: 75px;
+    object-fit: contain;}
+    nav a:hover {
+        color: #38bdf8;
+        text-decoration: underline;
+    }
